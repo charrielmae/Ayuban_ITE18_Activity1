@@ -75,7 +75,7 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 # NAME: AYUBAN, CHARRIEL MAE M. 
-# SECTION: EULM1 
+# SECTION: AIEM1
 # SUBMISSION REQUIREMENTS 
 
                                                            ----1st Page----
