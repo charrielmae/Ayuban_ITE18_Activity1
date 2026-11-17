@@ -73,3 +73,10 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+#NAME: AYUBAN, CHARRIEL MAE M. 
+#SECTION: EULM1 
+#SUBMISSION REQUIREMENTS 
+                                                                        ----1st Page----
+<img width="1905" height="907" alt="image" src="https://github.com/user-attachments/assets/6f86dd8d-4f19-4a7f-822e-3e70e93ff1e7" />
+
