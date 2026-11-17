@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @layer base {
   html {
@@ -27,7 +27,123 @@
     color: #FDFBF7;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Balthazar', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+@layer components {
+
+  /* Liquid Chrome Gold Card */
+  .card-chrome-gold {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(251, 247, 239, 0.95) 50%, rgba(246, 238, 217, 0.9) 100%);
+    box-shadow: 0 4px 15px -2px rgba(197, 160, 89, 0.08);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html.dark .card-chrome-gold {
+    background: linear-gradient(135deg, #141E30 0%, #1A2840 50%, #231B10 100%);
+    box-shadow: 0 4px 20px -2px rgba(197, 160, 89, 0.15);
+  }
+
+  .card-chrome-gold:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px -4px rgba(197, 160, 89, 0.2);
+    border-color: #C5A059;
+  }
+
+  html.dark .card-chrome-gold:hover {
+    box-shadow: 0 12px 32px -4px rgba(197, 160, 89, 0.3);
+    border-color: #DFC285;
+  }
+
+  /* Liquid Chrome Rough / Terracotta Card */
+  .card-chrome-rough {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(158, 71, 56, 0.4);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(247, 237, 233, 0.95) 50%, rgba(234, 209, 203, 0.85) 100%);
+    box-shadow: 0 4px 15px -2px rgba(158, 71, 56, 0.08);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html.dark .card-chrome-rough {
+    background: linear-gradient(135deg, #141E30 0%, #22181C 50%, #2A1410 100%);
+    box-shadow: 0 4px 20px -2px rgba(158, 71, 56, 0.15);
+  }
+
+  .card-chrome-rough:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px -4px rgba(158, 71, 56, 0.2);
+    border-color: #9E4738;
+  }
+
+  html.dark .card-chrome-rough:hover {
+    box-shadow: 0 12px 32px -4px rgba(158, 71, 56, 0.3);
+    border-color: #E58B79;
+  }
+
+  /* Liquid Chrome Off-Navy Card */
+  .card-chrome-navy {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(197, 160, 89, 0.35);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 247, 250, 0.95) 50%, rgba(230, 236, 245, 0.85) 100%);
+    box-shadow: 0 4px 15px -2px rgba(20, 30, 48, 0.08);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html.dark .card-chrome-navy {
+    background: linear-gradient(135deg, #0A101C 0%, #141E30 50%, #1B2942 100%);
+    box-shadow: 0 4px 20px -2px rgba(10, 16, 28, 0.3);
+  }
+
+  .card-chrome-navy:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px -4px rgba(20, 30, 48, 0.2);
+    border-color: #C5A059;
+  }
+
+  html.dark .card-chrome-navy:hover {
+    box-shadow: 0 12px 32px -4px rgba(197, 160, 89, 0.25);
+    border-color: #DFC285;
+  }
+
+  /* Liquid Chrome Coral Card */
+  .card-chrome-coral {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(240, 128, 128, 0.4);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(254, 244, 244, 0.95) 50%, rgba(253, 230, 230, 0.85) 100%);
+    box-shadow: 0 4px 15px -2px rgba(240, 128, 128, 0.08);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html.dark .card-chrome-coral {
+    background: linear-gradient(135deg, #141E30 0%, #25161F 50%, #2C1318 100%);
+    box-shadow: 0 4px 20px -2px rgba(240, 128, 128, 0.15);
+  }
+
+  .card-chrome-coral:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px -4px rgba(240, 128, 128, 0.2);
+    border-color: #F08080;
+  }
+
+  html.dark .card-chrome-coral:hover {
+    box-shadow: 0 12px 32px -4px rgba(240, 128, 128, 0.3);
+    border-color: #FFA3A3;
   }
 }

@@ -115,8 +115,7 @@
         <p>© {{ new Date().getFullYear() }} Charriel Mae M. Ayuban. Built with Nuxt 4 & Tailwind CSS.</p>
 
         <!-- Theme Toggle Button in Footer -->
-        <div class="flex items-center gap-3">
-          <span class="text-xs text-pale-300 font-medium">Appearance:</span>
+        <div class="flex items-center">
           <button
             type="button"
             @click="toggleTheme"

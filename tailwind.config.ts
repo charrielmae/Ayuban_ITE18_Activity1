@@ -51,7 +51,16 @@ export default <Partial<Config>>{
       },
       fontFamily: {
         display: ['"Great Vibes"', 'cursive'],
-        heading: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        heading: ['"Balthazar"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        balthazar: ['"Balthazar"', 'Georgia', 'serif'],
+        cinzel: ['"Cinzel Decorative"', 'Georgia', 'serif'],
+        bodoni: ['"Bodoni Moda"', 'Georgia', 'serif'],
+        italiana: ['"Italiana"', 'Georgia', 'serif'],
+        prata: ['"Prata"', 'Georgia', 'serif'],
+        luxurious: ['"Luxurious Roman"', 'Georgia', 'serif'],
+        luxuriousScript: ['"Luxurious Script"', 'cursive'],
+        playfair: ['"Playfair Display"', 'Georgia', 'serif'],
+        ebony: ['"Ebony Light"', '"Ebony"', '"Plus Jakarta Sans"', 'sans-serif'],
         sans: ['"Jost"', 'sans-serif'],
         body: ['"Jost"', 'sans-serif']
       }

@@ -39,6 +39,12 @@
             Currently Exploring
           </a>
           <a
+            href="/#expertise"
+            class="px-3 py-2 rounded-t-md text-offnavy dark:text-pale-200 hover:text-gold-dark dark:hover:text-gold-light hover:bg-gold-50/40 dark:hover:bg-offnavy-light/50 transition-colors"
+          >
+            Expertise
+          </a>
+          <a
             href="/#connect"
             class="px-3 py-2 rounded-t-md text-offnavy dark:text-pale-200 hover:text-gold-dark dark:hover:text-gold-light hover:bg-gold-50/40 dark:hover:bg-offnavy-light/50 transition-colors"
           >
@@ -113,6 +119,13 @@
         class="block px-3 py-2 rounded-md text-base font-medium text-offnavy dark:text-pale hover:bg-gold-50 dark:hover:bg-offnavy-light"
       >
         Currently Exploring
+      </a>
+      <a
+        href="/#expertise"
+        @click="isOpen = false"
+        class="block px-3 py-2 rounded-md text-base font-medium text-offnavy dark:text-pale hover:bg-gold-50 dark:hover:bg-offnavy-light"
+      >
+        Expertise
       </a>
       <a
         href="/#connect"
