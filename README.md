@@ -113,7 +113,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 # Hobbies & Personal Pursuit & Ready To Connect?
 <img width="972" height="642" alt="image" src="https://github.com/user-attachments/assets/137213fa-a93e-45fc-889f-a44b3c2cc787" />
 
-#Folders 
+# Folders 
 <img width="220" height="832" alt="image" src="https://github.com/user-attachments/assets/d1da7e31-f6e9-4a92-bf05-154b9a3824db" />
 
 
